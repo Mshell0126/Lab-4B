@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab4A</string>
+    <string name="action_settings">Settings</string>
+    <string name="MainActivityCaption">Welcome, please choose an activity.</string>
+    <string name="Menu_TipButton">Tip Calculator</string>
+    <string name="Menu_TempButton">Temperature Converter</string>
+    <string name="Menu_DistanceButton">Distance Converter</string>
+    <string name="BackButtonText">Back To Menu</string>
+    <string name="Tip_Output_Caption">Calculated Tip Per Person:</string>
+    <string name="Tip_Percentage_Caption">Tip Percentage:</string>
+    <string name="Total_Bill_Caption">Total Bill:</string>
+    <string name="MonetarySymbol">$%1$s</string>
+    <string name="PercentSign">%</string>
+    <string name="CalculateButton">Calculate</string>
+    <string name="NumberOfBills">No. of Checks:</string>
+    <string name="degreesC">\u00B0C</string>
+    <string name="degreesF">\u00B0F</string>
+    <string name="miles">mi.</string>
+    <string name="kilometers">km</string>
+    <string name="numberToString">%1$f</string>
+</resources>
