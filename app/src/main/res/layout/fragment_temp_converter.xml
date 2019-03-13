@@ -93,7 +93,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="4dp"
-        android:onClick="calculateTemp"
+        android:onClick="onClick"
         android:text="@string/CalculateButton"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintEnd_toStartOf="@+id/guideline8" />

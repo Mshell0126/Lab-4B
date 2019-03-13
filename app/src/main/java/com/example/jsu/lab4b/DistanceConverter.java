@@ -22,8 +22,11 @@ public class DistanceConverter extends Fragment implements View.OnClickListener 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_distance_converter, container, false);
+        Button b = (Button)view.findViewById(R.id.CalculateDistance); // Acquire button reference
+        b.setOnClickListener(this);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_distance_converter, container, false);
+        return view;
     }
 
     public void onClick(View v){

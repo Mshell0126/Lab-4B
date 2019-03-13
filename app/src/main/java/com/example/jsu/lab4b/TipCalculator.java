@@ -27,12 +27,13 @@ public class TipCalculator extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_tip_calculator, container, false);
         ((TextView)view.findViewById(R.id.CalculatedTip)).setText("$");
+        Button b = (Button)view.findViewById(R.id.CalculateButton); // Acquire button reference
+        b.setOnClickListener(this);                     // Set event handler
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tip_calculator, container, false);
+        return view; //inflater.inflate(R.layout.fragment_tip_calculator, container, false);
     }
 
     public void onClick(View v){
-
 
         double total = Double.parseDouble(((EditText)getView().findViewById(R.id.TotalBill)).getText().toString());
         int bills = Integer.parseInt(((EditText)getView().findViewById(R.id.NumberOfPeople)).getText().toString());
